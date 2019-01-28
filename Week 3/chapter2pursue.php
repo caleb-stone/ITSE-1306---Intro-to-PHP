@@ -1,0 +1,28 @@
+<!--
+--------------
+Programmer:  Caleb Stone
+Course:      ITSE-1306 (Intro to PHP)
+Instructor:  Cesar "Coach" Marrero
+Assignment:  Week 3 - Lab
+Description: Week 3 - Lab - Chapter 2 Pursue
+--------------
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <Title>Chapter 2 Pursue 1</title>
+</head>
+<body>
+<?php
+$num1 = 2;
+$num2 = 6;
+$date = '2019 Jan 27';
+print "num1 plus num2 is ";
+print $num1 + $num2;
+print "<br>";
+print "The date is $date";
+?>
+</body>
+</html>
