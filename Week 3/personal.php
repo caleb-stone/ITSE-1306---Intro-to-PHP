@@ -3,8 +3,8 @@
 // Programmer:  Caleb Stone
 // Course:      ITSE-1306 (Intro to PHP)
 // Instructor:  Cesar "Coach" Marrero
-// Assignment:  Week 2 - Lab
-// Description: Week 2 - Lab - Hello World & Photo
+// Assignment:  Week 3 - Lab
+// Description: Week 3 - Lab - Generate HTML from PHP code
 // --------------
 echo '<!--';
 echo '--------------';
