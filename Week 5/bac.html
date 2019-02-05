@@ -1,0 +1,43 @@
+<!--
+--------------
+Programmer:  Caleb Stone
+Course:      ITSE-1306 (Intro to PHP)
+Instructor:  Cesar "Coach" Marrero
+Assignment:  Week 5 - Lab
+Description: Week 5 - Lab - Blood Alcohol Content HTML
+--------------
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <Title>Blood Alcohol Content Input</title>
+</head>
+<body>
+
+<h1>Blood Alcohol Content Input</h1>
+<br>
+
+<form action="bac.php" method="post">
+
+  <p>Weight (pounds): <input type="text" name="weight_in_pounds" size="14" required>
+  </p>
+  <p>Gender: 
+    <input type="radio" name="gender" value="male" size="14" required> Male
+    <input type="radio" name="gender" value="female" size="14"> Female
+  </p>
+  <p>Number of drinks: <input type="text" name="number_of_drinks" size="14" required>
+  </p>
+  <p>Alcohol (ounces): <input type="text" name="ounces_of_alcohol" size="14" required>
+  </p>
+  <p>Hours: <input type="text" name="hours" size="14" required>
+  </p>
+
+  <input type="submit" name="submit" value="Submit">
+  
+</form>
+
+</body>
+</html>
+
